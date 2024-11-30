@@ -46,7 +46,9 @@ const EditForm = ({ editedTask, updateTask, closeEditMode }) => {
           <label
             htmlFor="editTask"
             className="label"
-          >更新任务</label>
+          >
+            更新任务
+          </label>
         </div>
         <button
           className="btn"
