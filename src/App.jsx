@@ -1,9 +1,5 @@
 import { useState } from 'react'
-
-// custom hooks
 import useLocalStorage from './hooks/useLocalStorage'
-
-// custom components
 import CustomForm from './components/CustomForm'
 import EditForm from './components/EditForm'
 import TaskList from './components/TaskList'
