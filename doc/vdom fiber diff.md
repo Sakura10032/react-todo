@@ -122,7 +122,7 @@ react内部有两颗树维护着两个状态：一个是`fiber tree`，一个是
 
 并且把每一段任务插入`requestIdleCallback` 如图
 
-![alt text](https://message163.github.io/react-docs/assets/task.BK8_bKzY.png)
+![alt text](./img/task.png)
 
 ## diff算法
 
@@ -149,8 +149,6 @@ A -> B -> C -> D
 ![alt text](https://message163.github.io/react-docs/assets/diff.C7mWJKAO.png)
 
 ## 代码实现 vDom Fiber Diff 完整版
-
-
 
 ```js
 //vdom

@@ -52,7 +52,6 @@ const EditForm = ({ editedTask, updateTask, closeEditMode }) => {
         </div>
         <button
           className="btn"
-          aria-label={`Confirm edited task to now read ${updatedTaskName}`}
           type="submit"
         >
           <CheckIcon strokeWidth={2} height={24} width={24} />
